@@ -1,0 +1,38 @@
+# 원본 참고용 클론 (직접 구현 아님)
+novu/
+
+# 의존성
+node_modules/
+.pnpm-store/
+
+# 빌드 결과물
+dist/
+build/
+.next/
+.nuxt/
+out/
+
+# 환경변수
+.env
+.env.local
+.env.*.local
+
+# 로그
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# 에디터
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 캐시
+.cache/
+.turbo/
+.nx/cache/
